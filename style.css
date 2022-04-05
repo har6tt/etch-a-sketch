@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.container {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: /*2.75px 0 2.75px*/ 0;
+    padding: 0;
+    border: 1px solid black;
+    gap: 0px;
+}
+
+.box {
+    border: /*2px*/0 solid black;
+    margin: 0px;
+    padding: 0px;
+    
+}
